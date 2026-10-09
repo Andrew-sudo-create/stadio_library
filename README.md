@@ -26,32 +26,3 @@ This project strictly follows the **MVVM (Model-View-ViewModel)** architectural 
 *   Jetpack Navigation Compose
 *   Jetpack Lifecycle (ViewModel, Runtime Compose)
 *   Room Database & KSP (Kotlin Symbol Processing)
-
-## 🚀 Setup & Installation Instructions
-
-### Prerequisites
-*   **Android Studio**: Ladybug (or newer recommended).
-*   **JDK**: Version 17+.
-*   **Device**: Android Emulator or physical device running Android API 26 or higher.
-
-### Running the App
-1.  **Clone the repository:**
-    ```bash
-    git clone <your_github_repo_link_here>
-    ```
-2.  **Open in Android Studio:**
-    *   Launch Android Studio and select **File > Open**.
-    *   Navigate to the cloned `STADIO_Library` directory and select it.
-3.  **Sync Gradle:**
-    *   Wait for Android Studio to automatically download dependencies and sync the Gradle files.
-4.  **Run the Application:**
-    *   Select your emulator or connected physical device from the target dropdown menu in the top toolbar.
-    *   Click the green **Run** (Play) button (or press `Shift + F10`).
-
-*Note: The local Room database is pre-populated with sample books and reservations on its initial creation via `RoomDatabase.Callback()`.*
-
-## 📸 Screenshots
-*(Add your screenshots or GIFs here showing the Catalog, Reservation flow, and My Reservations screen)*
-
----
-**Developed for Mobile Application Development (MADB372/SF1)**
